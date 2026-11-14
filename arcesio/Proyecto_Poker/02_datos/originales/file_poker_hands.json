@@ -1,0 +1,6219 @@
+[
+    {
+        "hands_id": "245647024180",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "700/1400 (210 ante)",
+        "seats": 8,
+        "button": 7,
+        "hero_cards": [
+            {
+                "rank": "6",
+                "suit": "s"
+            },
+            {
+                "rank": "7",
+                "suit": "s"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "6",
+                                "suit": "s"
+                            },
+                            {
+                                "rank": "7",
+                                "suit": "s"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 2,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "raise",
+                        "value": 2926
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "call",
+                        "value": 2926
+                    },
+                    {
+                        "seat": 8,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "call",
+                        "value": 1526
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "bet",
+                        "value": 3571
+                    },
+                    {
+                        "seat": 7,
+                        "action": "raise",
+                        "value": 10500
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "call",
+                        "value": 6929
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "5",
+                            "suit": "h"
+                        },
+                        {
+                            "rank": "J",
+                            "suit": "d"
+                        },
+                        {
+                            "rank": "5",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 5,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "bet",
+                        "value": 17687
+                    },
+                    {
+                        "seat": 5,
+                        "action": "call",
+                        "value": 17687
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "4",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 5,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "check"
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "9",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 67532
+            },
+            "seats": {
+                "5": {
+                    "hand": [
+                        {
+                            "rank": "J",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "T",
+                            "suit": "h"
+                        }
+                    ],
+                    "final_hand": [
+                        "two pair, Jacks and Fives"
+                    ],
+                    "collected": [
+                        {
+                            "main": 67532
+                        }
+                    ]
+                },
+                "7": {
+                    "hand": [
+                        {
+                            "rank": "6",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "7",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 700,
+        "bb": 1400,
+        "ante": 210,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 101949,
+                "bounty": 1717
+            },
+            {
+                "name": "Seat 2",
+                "seat": 2,
+                "stack": 350175,
+                "bounty": 2962
+            },
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 42137,
+                "bounty": 2280
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 56248,
+                "bounty": 796
+            },
+            {
+                "name": "Seat 5",
+                "seat": 5,
+                "stack": 95255,
+                "bounty": 2295
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 71644,
+                "bounty": 625
+            },
+            {
+                "name": "vividoaksalah",
+                "seat": 7,
+                "stack": 70978,
+                "bounty": 827,
+                "hero": true
+            },
+            {
+                "name": "Seat 8",
+                "seat": 8,
+                "stack": 39435,
+                "bounty": 500
+            }
+        ]
+    },
+    {
+        "hands_id": "245641260042",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "50/100 (12 ante)",
+        "seats": 8,
+        "button": 1,
+        "hero_cards": [
+            {
+                "rank": "7",
+                "suit": "h"
+            },
+            {
+                "rank": "K",
+                "suit": "h"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "7",
+                                "suit": "h"
+                            },
+                            {
+                                "rank": "K",
+                                "suit": "h"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 8,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "raise",
+                        "value": 210
+                    },
+                    {
+                        "seat": 5,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "call",
+                        "value": 110
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 3,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "bet",
+                        "value": 170
+                    },
+                    {
+                        "seat": 3,
+                        "action": "call",
+                        "value": 170
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "6",
+                            "suit": "d"
+                        },
+                        {
+                            "rank": "9",
+                            "suit": "d"
+                        },
+                        {
+                            "rank": "K",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 3,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "bet",
+                        "value": 744
+                    },
+                    {
+                        "seat": 3,
+                        "action": "call",
+                        "value": 744
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "T",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 3,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "bet",
+                        "value": 1836
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "return_uncalled",
+                        "value": 1836
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "Q",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 2394
+            },
+            "seats": {
+                "4": {
+                    "collected": [
+                        {
+                            "main": 2394
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 50,
+        "bb": 100,
+        "ante": 12,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 4796,
+                "bounty": 250
+            },
+            {
+                "name": "Seat 2",
+                "seat": 2,
+                "stack": 11050,
+                "bounty": 375
+            },
+            {
+                "name": "MnsJunior",
+                "seat": 3,
+                "stack": 5548,
+                "bounty": 250,
+                "hero": true
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 5496,
+                "bounty": 250
+            },
+            {
+                "name": "Seat 5",
+                "seat": 5,
+                "stack": 4966,
+                "bounty": 250
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 4528,
+                "bounty": 250
+            },
+            {
+                "name": "Seat 7",
+                "seat": 7,
+                "stack": 4292,
+                "bounty": 250
+            },
+            {
+                "name": "Seat 8",
+                "seat": 8,
+                "stack": 4030,
+                "bounty": 250
+            }
+        ]
+    },
+    {
+        "hands_id": "245657082593",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "600/1200 (150 ante)",
+        "seats": 2,
+        "button": 1,
+        "hero_cards": [
+            {
+                "rank": "6",
+                "suit": "h"
+            },
+            {
+                "rank": "8",
+                "suit": "d"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "6",
+                                "suit": "h"
+                            },
+                            {
+                                "rank": "8",
+                                "suit": "d"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "raise",
+                        "value": 2760
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 1560
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "bet",
+                        "value": 3201
+                    },
+                    {
+                        "seat": 2,
+                        "action": "raise",
+                        "value": 9312
+                    },
+                    {
+                        "seat": 1,
+                        "action": "call",
+                        "value": 6111
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "3",
+                            "suit": "h"
+                        },
+                        {
+                            "rank": "Q",
+                            "suit": "d"
+                        },
+                        {
+                            "rank": "8",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "bet",
+                        "value": 19066
+                    },
+                    {
+                        "seat": 1,
+                        "action": "call",
+                        "value": 19066
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "3",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "bet",
+                        "value": 78784,
+                        "all_in": true
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "return_uncalled",
+                        "value": 78784
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "7",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 62576
+            },
+            "seats": {
+                "2": {
+                    "collected": [
+                        {
+                            "main": 62576
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 600,
+        "bb": 1200,
+        "ante": 150,
+        "players": [
+            {
+                "name": "michalbubble",
+                "seat": 1,
+                "stack": 102388,
+                "bounty": 22250,
+                "hero": true
+            },
+            {
+                "name": "Seat 2",
+                "seat": 2,
+                "stack": 110072,
+                "bounty": 41281
+            }
+        ]
+    },
+    {
+        "hands_id": "245644043257",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "75/150 (20 ante)",
+        "seats": 8,
+        "button": 5,
+        "hero_cards": [
+            {
+                "rank": "A",
+                "suit": "s"
+            },
+            {
+                "rank": "6",
+                "suit": "s"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 8,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "A",
+                                "suit": "s"
+                            },
+                            {
+                                "rank": "6",
+                                "suit": "s"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 8,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "raise",
+                        "value": 300
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "call",
+                        "value": 150
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 7,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "bet",
+                        "value": 276
+                    },
+                    {
+                        "seat": 7,
+                        "action": "call",
+                        "value": 276
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "4",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "Q",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "K",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 7,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "bet",
+                        "value": 763
+                    },
+                    {
+                        "seat": 7,
+                        "action": "call",
+                        "value": 763
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "5",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 7,
+                        "action": "bet",
+                        "value": 2585,
+                        "all_in": true
+                    },
+                    {
+                        "seat": 2,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "return_uncalled",
+                        "value": 2585
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "2",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 2913
+            },
+            "seats": {
+                "7": {
+                    "collected": [
+                        {
+                            "main": 2913
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 75,
+        "bb": 150,
+        "ante": 20,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 10940
+            },
+            {
+                "name": "Rafacpaula",
+                "seat": 2,
+                "stack": 6631,
+                "hero": true
+            },
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 10392
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 3529
+            },
+            {
+                "name": "Seat 5",
+                "seat": 5,
+                "stack": 5025
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 5969
+            },
+            {
+                "name": "Seat 7",
+                "seat": 7,
+                "stack": 3944
+            },
+            {
+                "name": "Seat 8",
+                "seat": 8,
+                "stack": 2825
+            }
+        ]
+    },
+    {
+        "hands_id": "245656671557",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "100/200 (25 ante)",
+        "seats": 8,
+        "button": 7,
+        "hero_cards": [
+            {
+                "rank": "T",
+                "suit": "s"
+            },
+            {
+                "rank": "K",
+                "suit": "c"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "T",
+                                "suit": "s"
+                            },
+                            {
+                                "rank": "K",
+                                "suit": "c"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "raise",
+                        "value": 775
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 575
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "bet",
+                        "value": 587
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 587
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "2",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "4",
+                            "suit": "h"
+                        },
+                        {
+                            "rank": "A",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "bet",
+                        "value": 1740
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 1740
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "5",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "bet",
+                        "value": 2670
+                    },
+                    {
+                        "seat": 2,
+                        "action": "raise",
+                        "value": 10289,
+                        "all_in": true
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "return_uncalled",
+                        "value": 7619
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "J",
+                            "suit": "d"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 11719
+            },
+            "seats": {
+                "2": {
+                    "collected": [
+                        {
+                            "main": 11719
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 100,
+        "bb": 200,
+        "ante": 25,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 13470
+            },
+            {
+                "name": "Steady_eddie89",
+                "seat": 2,
+                "stack": 13416,
+                "hero": true
+            },
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 10450
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 13820
+            },
+            {
+                "name": "Seat 5",
+                "seat": 5,
+                "stack": 7661
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 16914
+            },
+            {
+                "name": "Seat 7",
+                "seat": 7,
+                "stack": 16090
+            }
+        ]
+    },
+    {
+        "hands_id": "245649589851",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "100000/200000 (25000 ante)",
+        "seats": 8,
+        "button": 5,
+        "hero_cards": [
+            {
+                "rank": "A",
+                "suit": "d"
+            },
+            {
+                "rank": "T",
+                "suit": "s"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 8,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "A",
+                                "suit": "d"
+                            },
+                            {
+                                "rank": "T",
+                                "suit": "s"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 8,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "raise",
+                        "value": 440000
+                    },
+                    {
+                        "seat": 4,
+                        "action": "call",
+                        "value": 440000
+                    },
+                    {
+                        "seat": 5,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "fold"
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 3,
+                        "action": "bet",
+                        "value": 347150
+                    },
+                    {
+                        "seat": 4,
+                        "action": "call",
+                        "value": 347150
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "T",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "8",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "7",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 3,
+                        "action": "bet",
+                        "value": 1336975
+                    },
+                    {
+                        "seat": 4,
+                        "action": "call",
+                        "value": 1336975
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "T",
+                            "suit": "d"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 3,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "bet",
+                        "value": 4500000
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "return_uncalled",
+                        "value": 4500000
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "J",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 4723250
+            },
+            "seats": {
+                "4": {
+                    "collected": [
+                        {
+                            "main": 4723250
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 100000,
+        "bb": 200000,
+        "ante": 25000,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 2526767
+            },
+            {
+                "name": "Weverson14",
+                "seat": 3,
+                "stack": 6380128,
+                "hero": true
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 9266942
+            },
+            {
+                "name": "Seat 5",
+                "seat": 5,
+                "stack": 15928784
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 3215734
+            },
+            {
+                "name": "Seat 7",
+                "seat": 7,
+                "stack": 3630702
+            },
+            {
+                "name": "Seat 8",
+                "seat": 8,
+                "stack": 4720827
+            }
+        ]
+    },
+    {
+        "hands_id": "245650377852",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "3000/6000 (750 ante)",
+        "seats": 9,
+        "button": 7,
+        "hero_cards": [
+            {
+                "rank": "9",
+                "suit": "s"
+            },
+            {
+                "rank": "9",
+                "suit": "c"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 9,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 9,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 9,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "9",
+                                "suit": "s"
+                            },
+                            {
+                                "rank": "9",
+                                "suit": "c"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "raise",
+                        "value": 12600
+                    },
+                    {
+                        "seat": 8,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 9,
+                        "action": "call",
+                        "value": 6600
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 9,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "bet",
+                        "value": 10791
+                    },
+                    {
+                        "seat": 9,
+                        "action": "raise",
+                        "value": 43103
+                    },
+                    {
+                        "seat": 7,
+                        "action": "call",
+                        "value": 32312
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "A",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "8",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "7",
+                            "suit": "d"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 9,
+                        "action": "bet",
+                        "value": 57861
+                    },
+                    {
+                        "seat": 7,
+                        "action": "call",
+                        "value": 57861
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "6",
+                            "suit": "d"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 9,
+                        "action": "bet",
+                        "value": 351942
+                    },
+                    {
+                        "seat": 7,
+                        "action": "call",
+                        "value": 120364,
+                        "all_in": true
+                    },
+                    {
+                        "seat": 9,
+                        "action": "return_uncalled",
+                        "value": 231578
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "8",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 475356
+            },
+            "seats": {
+                "7": {
+                    "hand": [
+                        {
+                            "rank": "9",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "9",
+                            "suit": "c"
+                        }
+                    ],
+                    "final_hand": [
+                        "two pair, Nines and Eights"
+                    ],
+                    "collected": [
+                        {
+                            "main": 475356
+                        }
+                    ]
+                },
+                "9": {
+                    "hand": [
+                        {
+                            "rank": "5",
+                            "suit": "d"
+                        },
+                        {
+                            "rank": "7",
+                            "suit": "h"
+                        }
+                    ],
+                    "final_hand": [
+                        "two pair, Eights and Sevens"
+                    ]
+                }
+            }
+        },
+        "sb": 3000,
+        "bb": 6000,
+        "ante": 750,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 244104
+            },
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 179087
+            },
+            {
+                "name": "Seat 5",
+                "seat": 5,
+                "stack": 126514
+            },
+            {
+                "name": "saviocesar",
+                "seat": 7,
+                "stack": 234678,
+                "hero": true
+            },
+            {
+                "name": "Seat 8",
+                "seat": 8,
+                "stack": 303323
+            },
+            {
+                "name": "Seat 9",
+                "seat": 9,
+                "stack": 467294
+            }
+        ]
+    },
+    {
+        "hands_id": "245656547509",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "1500/3000 (500 ante)",
+        "seats": 8,
+        "button": 4,
+        "hero_cards": [
+            {
+                "rank": "J",
+                "suit": "c"
+            },
+            {
+                "rank": "K",
+                "suit": "h"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "J",
+                                "suit": "c"
+                            },
+                            {
+                                "rank": "K",
+                                "suit": "h"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 8,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "raise",
+                        "value": 9000
+                    },
+                    {
+                        "seat": 6,
+                        "action": "call",
+                        "value": 6000
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 5,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "bet",
+                        "value": 7095
+                    },
+                    {
+                        "seat": 5,
+                        "action": "call",
+                        "value": 7095
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "A",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "T",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "6",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 5,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "check"
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "6",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 5,
+                        "action": "bet",
+                        "value": 40123
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "return_uncalled",
+                        "value": 40123
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "8",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 35690
+            },
+            "seats": {
+                "5": {
+                    "collected": [
+                        {
+                            "main": 35690
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 1500,
+        "bb": 3000,
+        "ante": 500,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 13416,
+                "bounty": 75
+            },
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 319085,
+                "bounty": 636
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 319457,
+                "bounty": 1336
+            },
+            {
+                "name": "magu_gr1",
+                "seat": 5,
+                "stack": 130858,
+                "bounty": 242,
+                "hero": true
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 231882,
+                "bounty": 479
+            },
+            {
+                "name": "Seat 7",
+                "seat": 7,
+                "stack": 110699,
+                "bounty": 608
+            },
+            {
+                "name": "Seat 8",
+                "seat": 8,
+                "stack": 149662,
+                "bounty": 100
+            }
+        ]
+    },
+    {
+        "hands_id": "245643386040",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "700/1400 (200 ante)",
+        "seats": 8,
+        "button": 7,
+        "hero_cards": [
+            {
+                "rank": "6",
+                "suit": "c"
+            },
+            {
+                "rank": "4",
+                "suit": "c"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "6",
+                                "suit": "c"
+                            },
+                            {
+                                "rank": "4",
+                                "suit": "c"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 2,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "raise",
+                        "value": 3220
+                    },
+                    {
+                        "seat": 4,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "call",
+                        "value": 1820
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "bet",
+                        "value": 2100
+                    },
+                    {
+                        "seat": 1,
+                        "action": "raise",
+                        "value": 6300
+                    },
+                    {
+                        "seat": 3,
+                        "action": "call",
+                        "value": 4200
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "7",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "2",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "7",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "bet",
+                        "value": 16800
+                    },
+                    {
+                        "seat": 3,
+                        "action": "call",
+                        "value": 16800
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "4",
+                            "suit": "d"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "bet",
+                        "value": 49446
+                    },
+                    {
+                        "seat": 3,
+                        "action": "call",
+                        "value": 49446
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "3",
+                            "suit": "d"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 153832
+            },
+            "seats": {
+                "1": {
+                    "hand": [
+                        {
+                            "rank": "K",
+                            "suit": "h"
+                        },
+                        {
+                            "rank": "7",
+                            "suit": "h"
+                        }
+                    ],
+                    "final_hand": [
+                        "three of a kind, Sevens"
+                    ],
+                    "collected": [
+                        {
+                            "main": 153832
+                        }
+                    ]
+                },
+                "3": {
+                    "hand": [
+                        {
+                            "rank": "6",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "4",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 700,
+        "bb": 1400,
+        "ante": 200,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 105723,
+                "bounty": 9375
+            },
+            {
+                "name": "Seat 2",
+                "seat": 2,
+                "stack": 28969,
+                "bounty": 2500
+            },
+            {
+                "name": "RoGeR vIvAn",
+                "seat": 3,
+                "stack": 119560,
+                "bounty": 3750,
+                "hero": true
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 32291,
+                "bounty": 2500
+            },
+            {
+                "name": "Seat 5",
+                "seat": 5,
+                "stack": 59028,
+                "bounty": 2500
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 23500,
+                "bounty": 2500
+            },
+            {
+                "name": "Seat 7",
+                "seat": 7,
+                "stack": 29300,
+                "bounty": 2500
+            },
+            {
+                "name": "Seat 8",
+                "seat": 8,
+                "stack": 34820,
+                "bounty": 2500
+            }
+        ]
+    },
+    {
+        "hands_id": "245656473068",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "75/150 (20 ante)",
+        "seats": 2,
+        "button": 1,
+        "hero_cards": [
+            {
+                "rank": "5",
+                "suit": "c"
+            },
+            {
+                "rank": "4",
+                "suit": "s"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "5",
+                                "suit": "c"
+                            },
+                            {
+                                "rank": "4",
+                                "suit": "s"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "call",
+                        "value": 75
+                    },
+                    {
+                        "seat": 2,
+                        "action": "raise",
+                        "value": 900
+                    },
+                    {
+                        "seat": 1,
+                        "action": "call",
+                        "value": 750
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "check"
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "8",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "5",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "9",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "bet",
+                        "value": 1840
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 1840
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "3",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "bet",
+                        "value": 5520
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 5520
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "K",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 16560
+            },
+            "seats": {
+                "1": {
+                    "hand": [
+                        {
+                            "rank": "Q",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "J",
+                            "suit": "h"
+                        }
+                    ],
+                    "final_hand": [
+                        "high card King"
+                    ]
+                },
+                "2": {
+                    "hand": [
+                        {
+                            "rank": "5",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "4",
+                            "suit": "s"
+                        }
+                    ],
+                    "final_hand": [
+                        "a pair of Fives"
+                    ],
+                    "collected": [
+                        {
+                            "main": 16560
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 75,
+        "bb": 150,
+        "ante": 20,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 16347,
+                "bounty": 5250
+            },
+            {
+                "name": "michalbubble",
+                "seat": 2,
+                "stack": 37307,
+                "bounty": 13500,
+                "hero": true
+            }
+        ]
+    },
+    {
+        "hands_id": "245656370044",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "20/40",
+        "seats": 3,
+        "button": 3,
+        "hero_cards": [
+            {
+                "rank": "A",
+                "suit": "d"
+            },
+            {
+                "rank": "6",
+                "suit": "s"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "A",
+                                "suit": "d"
+                            },
+                            {
+                                "rank": "6",
+                                "suit": "s"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "call",
+                        "value": 40
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "raise",
+                        "value": 80
+                    },
+                    {
+                        "seat": 3,
+                        "action": "call",
+                        "value": 40
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "bet",
+                        "value": 80
+                    },
+                    {
+                        "seat": 3,
+                        "action": "call",
+                        "value": 80
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "Q",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "Q",
+                            "suit": "d"
+                        },
+                        {
+                            "rank": "4",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "bet",
+                        "value": 80
+                    },
+                    {
+                        "seat": 3,
+                        "action": "call",
+                        "value": 80
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "K",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "bet",
+                        "value": 121,
+                        "all_in": true
+                    },
+                    {
+                        "seat": 3,
+                        "action": "call",
+                        "value": 121
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "K",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 742
+            },
+            "seats": {
+                "2": {
+                    "hand": [
+                        {
+                            "rank": "3",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "3",
+                            "suit": "c"
+                        }
+                    ],
+                    "final_hand": [
+                        "two pair, Kings and Queens"
+                    ]
+                },
+                "3": {
+                    "hand": [
+                        {
+                            "rank": "A",
+                            "suit": "d"
+                        },
+                        {
+                            "rank": "6",
+                            "suit": "s"
+                        }
+                    ],
+                    "final_hand": [
+                        "two pair, Kings and Queens - Ace kicker"
+                    ],
+                    "collected": [
+                        {
+                            "main": 742
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 20,
+        "bb": 40,
+        "ante": null,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 329
+            },
+            {
+                "name": "Seat 2",
+                "seat": 2,
+                "stack": 361
+            },
+            {
+                "name": "johnoj00",
+                "seat": 3,
+                "stack": 810,
+                "hero": true
+            }
+        ]
+    },
+    {
+        "hands_id": "245656225947",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": false,
+        "limit": "$0.50/$1.00",
+        "seats": 6,
+        "button": 6,
+        "hero_cards": [
+            {
+                "rank": "A",
+                "suit": "c"
+            },
+            {
+                "rank": "K",
+                "suit": "c"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "A",
+                                "suit": "c"
+                            },
+                            {
+                                "rank": "K",
+                                "suit": "c"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "raise",
+                        "value": 230
+                    },
+                    {
+                        "seat": 6,
+                        "action": "call",
+                        "value": 230
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "fold"
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 5,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "check"
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "8",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "T",
+                            "suit": "h"
+                        },
+                        {
+                            "rank": "J",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 5,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "check"
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "Q",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 5,
+                        "action": "bet",
+                        "value": 290
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "return_uncalled",
+                        "value": 290
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "9",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 30,
+            "pots": {
+                "main": 610
+            },
+            "seats": {
+                "5": {
+                    "collected": [
+                        {
+                            "main": 580
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 50,
+        "bb": 100,
+        "ante": null,
+        "players": [
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 13786,
+                "sat_out": true
+            },
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 11078
+            },
+            {
+                "name": "Seat 2",
+                "seat": 2,
+                "stack": 10411
+            },
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 11797
+            },
+            {
+                "name": "DAKARis",
+                "seat": 5,
+                "stack": 21947,
+                "hero": true
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 4288
+            }
+        ]
+    },
+    {
+        "hands_id": "245641991216",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": false,
+        "limit": "$1/$2",
+        "seats": 9,
+        "button": 1,
+        "hero_cards": [
+            {
+                "rank": "A",
+                "suit": "c"
+            },
+            {
+                "rank": "9",
+                "suit": "c"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 9,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "A",
+                                "suit": "c"
+                            },
+                            {
+                                "rank": "9",
+                                "suit": "c"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "raise",
+                        "value": 500
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 9,
+                        "action": "call",
+                        "value": 500
+                    },
+                    {
+                        "seat": 1,
+                        "action": "call",
+                        "value": 500
+                    },
+                    {
+                        "seat": 2,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 4,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 9,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "check"
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "A",
+                            "suit": "h"
+                        },
+                        {
+                            "rank": "5",
+                            "suit": "h"
+                        },
+                        {
+                            "rank": "A",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 4,
+                        "action": "bet",
+                        "value": 564
+                    },
+                    {
+                        "seat": 9,
+                        "action": "call",
+                        "value": 564
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "K",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 4,
+                        "action": "bet",
+                        "value": 918
+                    },
+                    {
+                        "seat": 9,
+                        "action": "raise",
+                        "value": 4612
+                    },
+                    {
+                        "seat": 4,
+                        "action": "raise",
+                        "value": 25974,
+                        "all_in": true
+                    },
+                    {
+                        "seat": 9,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "return_uncalled",
+                        "value": 21362
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "9",
+                            "suit": "d"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 275,
+            "pots": {
+                "main": 12152
+            },
+            "seats": {
+                "4": {
+                    "collected": [
+                        {
+                            "main": 11877
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 100,
+        "bb": 200,
+        "ante": null,
+        "players": [
+            {
+                "name": "Seat 8",
+                "seat": 8,
+                "stack": 34320,
+                "sat_out": true
+            },
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 26083
+            },
+            {
+                "name": "Seat 2",
+                "seat": 2,
+                "stack": 20630
+            },
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 20000
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 27038
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 23586
+            },
+            {
+                "name": "Seat 7",
+                "seat": 7,
+                "stack": 31294
+            },
+            {
+                "name": "ClickcliBo0M",
+                "seat": 9,
+                "stack": 20000,
+                "hero": true
+            }
+        ]
+    },
+    {
+        "hands_id": "245655945035",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "125/250 (36 ante)",
+        "seats": 8,
+        "button": 8,
+        "hero_cards": [
+            {
+                "rank": "8",
+                "suit": "d"
+            },
+            {
+                "rank": "9",
+                "suit": "d"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "8",
+                                "suit": "d"
+                            },
+                            {
+                                "rank": "9",
+                                "suit": "d"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 8,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "raise",
+                        "value": 500
+                    },
+                    {
+                        "seat": 7,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 250
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "bet",
+                        "value": 438
+                    },
+                    {
+                        "seat": 6,
+                        "action": "call",
+                        "value": 438
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "6",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "3",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "4",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "bet",
+                        "value": 1500
+                    },
+                    {
+                        "seat": 6,
+                        "action": "call",
+                        "value": 1500
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "5",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "bet",
+                        "value": 2250
+                    },
+                    {
+                        "seat": 2,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "return_uncalled",
+                        "value": 2250
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "T",
+                            "suit": "d"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 5289
+            },
+            "seats": {
+                "6": {
+                    "collected": [
+                        {
+                            "main": 5289
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 125,
+        "bb": 250,
+        "ante": 36,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 21687,
+                "bounty": 400
+            },
+            {
+                "name": "Zantins",
+                "seat": 2,
+                "stack": 9834,
+                "bounty": 200,
+                "hero": true
+            },
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 6170,
+                "bounty": 300
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 18604,
+                "bounty": 350
+            },
+            {
+                "name": "Seat 5",
+                "seat": 5,
+                "stack": 3879,
+                "bounty": 400
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 12833,
+                "bounty": 200
+            },
+            {
+                "name": "Seat 7",
+                "seat": 7,
+                "stack": 11648,
+                "bounty": 200
+            },
+            {
+                "name": "Seat 8",
+                "seat": 8,
+                "stack": 4747,
+                "bounty": 200
+            }
+        ]
+    },
+    {
+        "hands_id": "245655858892",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": false,
+        "limit": "$0.10/$0.25",
+        "seats": 6,
+        "button": 1,
+        "hero_cards": [
+            {
+                "rank": "T",
+                "suit": "h"
+            },
+            {
+                "rank": "A",
+                "suit": "h"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "T",
+                                "suit": "h"
+                            },
+                            {
+                                "rank": "A",
+                                "suit": "h"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "raise",
+                        "value": 125
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 115
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "bet",
+                        "value": 125
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 125
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "T",
+                            "suit": "d"
+                        },
+                        {
+                            "rank": "A",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "4",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "bet",
+                        "value": 200
+                    },
+                    {
+                        "seat": 2,
+                        "action": "raise",
+                        "value": 400
+                    },
+                    {
+                        "seat": 1,
+                        "action": "call",
+                        "value": 200
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "2",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "bet",
+                        "value": 633
+                    },
+                    {
+                        "seat": 1,
+                        "action": "raise",
+                        "value": 1660,
+                        "all_in": true
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 709,
+                        "all_in": true
+                    },
+                    {
+                        "seat": 1,
+                        "action": "return_uncalled",
+                        "value": 318
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "9",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 180,
+            "pots": {
+                "main": 4009
+            },
+            "seats": {
+                "1": {
+                    "hand": [
+                        {
+                            "rank": "5",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "3",
+                            "suit": "d"
+                        }
+                    ],
+                    "final_hand": [
+                        "a straight, Ace to Five"
+                    ],
+                    "collected": [
+                        {
+                            "main": 3829
+                        }
+                    ]
+                },
+                "2": {
+                    "hand": [
+                        {
+                            "rank": "T",
+                            "suit": "h"
+                        },
+                        {
+                            "rank": "A",
+                            "suit": "h"
+                        }
+                    ],
+                    "final_hand": [
+                        "two pair, Aces and Tens"
+                    ]
+                }
+            }
+        },
+        "sb": 10,
+        "bb": 25,
+        "ante": null,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 2310
+            },
+            {
+                "name": "nitnatsnoK7",
+                "seat": 2,
+                "stack": 1992,
+                "hero": true
+            },
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 1517
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 3142
+            },
+            {
+                "name": "Seat 5",
+                "seat": 5,
+                "stack": 4824
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 2500
+            }
+        ]
+    },
+    {
+        "hands_id": "245522685350",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "10/20 (3 ante)",
+        "seats": 9,
+        "button": 4,
+        "hero_cards": [
+            {
+                "rank": "3",
+                "suit": "s"
+            },
+            {
+                "rank": "4",
+                "suit": "s"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 9,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 8,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 9,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "3",
+                                "suit": "s"
+                            },
+                            {
+                                "rank": "4",
+                                "suit": "s"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 8,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 9,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "raise",
+                        "value": 46
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "call",
+                        "value": 26
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 7,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "bet",
+                        "value": 41
+                    },
+                    {
+                        "seat": 7,
+                        "action": "call",
+                        "value": 41
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "K",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "4",
+                            "suit": "h"
+                        },
+                        {
+                            "rank": "9",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 7,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "check"
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "8",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 7,
+                        "action": "bet",
+                        "value": 144
+                    },
+                    {
+                        "seat": 4,
+                        "action": "call",
+                        "value": 144
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "5",
+                            "suit": "d"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 493
+            },
+            "seats": {
+                "4": {
+                    "hand": [
+                        {
+                            "rank": "3",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "4",
+                            "suit": "s"
+                        }
+                    ]
+                },
+                "7": {
+                    "hand": [
+                        {
+                            "rank": "J",
+                            "suit": "h"
+                        },
+                        {
+                            "rank": "8",
+                            "suit": "c"
+                        }
+                    ],
+                    "final_hand": [
+                        "a pair of Eights"
+                    ],
+                    "collected": [
+                        {
+                            "main": 493
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 10,
+        "bb": 20,
+        "ante": 3,
+        "players": [
+            {
+                "name": "Seat 2",
+                "seat": 2,
+                "stack": 3117
+            },
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 1461
+            },
+            {
+                "name": "JoaoSeverino11",
+                "seat": 4,
+                "stack": 1444,
+                "hero": true
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 1474
+            },
+            {
+                "name": "Seat 7",
+                "seat": 7,
+                "stack": 1451
+            },
+            {
+                "name": "Seat 8",
+                "seat": 8,
+                "stack": 1491
+            },
+            {
+                "name": "Seat 9",
+                "seat": 9,
+                "stack": 1568
+            }
+        ]
+    },
+    {
+        "hands_id": "245655570422",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": false,
+        "limit": "$0.10/$0.25",
+        "seats": 6,
+        "button": 1,
+        "hero_cards": [
+            {
+                "rank": "T",
+                "suit": "h"
+            },
+            {
+                "rank": "9",
+                "suit": "h"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "T",
+                                "suit": "h"
+                            },
+                            {
+                                "rank": "9",
+                                "suit": "h"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "raise",
+                        "value": 50
+                    },
+                    {
+                        "seat": 2,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "raise",
+                        "value": 250
+                    },
+                    {
+                        "seat": 1,
+                        "action": "call",
+                        "value": 200
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 3,
+                        "action": "bet",
+                        "value": 365
+                    },
+                    {
+                        "seat": 1,
+                        "action": "call",
+                        "value": 365
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "8",
+                            "suit": "d"
+                        },
+                        {
+                            "rank": "3",
+                            "suit": "d"
+                        },
+                        {
+                            "rank": "6",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 3,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "check"
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "2",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 3,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "bet",
+                        "value": 2750,
+                        "all_in": true
+                    },
+                    {
+                        "seat": 3,
+                        "action": "call",
+                        "value": 2007,
+                        "all_in": true
+                    },
+                    {
+                        "seat": 1,
+                        "action": "return_uncalled",
+                        "value": 743
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "8",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 200,
+            "pots": {
+                "main": 5254
+            },
+            "seats": {
+                "1": {
+                    "hand": [
+                        {
+                            "rank": "T",
+                            "suit": "h"
+                        },
+                        {
+                            "rank": "9",
+                            "suit": "h"
+                        }
+                    ],
+                    "final_hand": [
+                        "a flush, Ten high"
+                    ],
+                    "collected": [
+                        {
+                            "main": 5054
+                        }
+                    ]
+                },
+                "3": {
+                    "hand": [
+                        {
+                            "rank": "A",
+                            "suit": "s"
+                        },
+                        {
+                            "rank": "Q",
+                            "suit": "h"
+                        }
+                    ],
+                    "final_hand": [
+                        "a pair of Eights"
+                    ]
+                }
+            }
+        },
+        "sb": 10,
+        "bb": 25,
+        "ante": null,
+        "players": [
+            {
+                "name": "Bigalbigguns",
+                "seat": 1,
+                "stack": 3365,
+                "hero": true
+            },
+            {
+                "name": "Seat 2",
+                "seat": 2,
+                "stack": 13334
+            },
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 2622
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 3520
+            },
+            {
+                "name": "Seat 5",
+                "seat": 5,
+                "stack": 757
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 3211
+            }
+        ]
+    },
+    {
+        "hands_id": "245645363142",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": true,
+        "limit": "100/200 (25 ante)",
+        "seats": 8,
+        "button": 8,
+        "hero_cards": [
+            {
+                "rank": "T",
+                "suit": "d"
+            },
+            {
+                "rank": "J",
+                "suit": "h"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 3,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "post",
+                        "value": "ante"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "T",
+                                "suit": "d"
+                            },
+                            {
+                                "rank": "J",
+                                "suit": "h"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 7,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 8,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 3,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 5,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 7,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "raise",
+                        "value": 400
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 200
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "bet",
+                        "value": 440
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 440
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "A",
+                            "suit": "h"
+                        },
+                        {
+                            "rank": "K",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "T",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "bet",
+                        "value": 792
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 792
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "5",
+                            "suit": "h"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 8,
+                        "action": "bet",
+                        "value": 1426
+                    },
+                    {
+                        "seat": 2,
+                        "action": "raise",
+                        "value": 3800
+                    },
+                    {
+                        "seat": 8,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "return_uncalled",
+                        "value": 2374
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "A",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 0,
+            "pots": {
+                "main": 6416
+            },
+            "seats": {
+                "2": {
+                    "collected": [
+                        {
+                            "main": 6416
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 100,
+        "bb": 200,
+        "ante": 25,
+        "players": [
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 22362
+            },
+            {
+                "name": "DIVERSI27",
+                "seat": 2,
+                "stack": 9500,
+                "hero": true
+            },
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 9999
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 8025
+            },
+            {
+                "name": "Seat 5",
+                "seat": 5,
+                "stack": 13028
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 9146
+            },
+            {
+                "name": "Seat 7",
+                "seat": 7,
+                "stack": 9200
+            },
+            {
+                "name": "Seat 8",
+                "seat": 8,
+                "stack": 9650
+            }
+        ]
+    },
+    {
+        "hands_id": "245654305953",
+        "game_class": "holdem",
+        "game_type": "NLHE",
+        "tournament": false,
+        "limit": "$0.02/$0.05",
+        "seats": 6,
+        "button": 1,
+        "hero_cards": [
+            {
+                "rank": "K",
+                "suit": "d"
+            },
+            {
+                "rank": "2",
+                "suit": "d"
+            }
+        ],
+        "streets": {
+            "preflop": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "post",
+                        "value": "SB"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "post",
+                        "value": "BB"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 4,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "K",
+                                "suit": "d"
+                            },
+                            {
+                                "rank": "2",
+                                "suit": "d"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 6,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 1,
+                        "action": "dealt",
+                        "value": [
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            },
+                            {
+                                "rank": "x",
+                                "suit": "x"
+                            }
+                        ]
+                    },
+                    {
+                        "seat": 5,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 6,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 1,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 3
+                    },
+                    {
+                        "seat": 4,
+                        "action": "check"
+                    }
+                ]
+            },
+            "flop": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "bet",
+                        "value": 10
+                    },
+                    {
+                        "seat": 2,
+                        "action": "call",
+                        "value": 10
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "9",
+                            "suit": "c"
+                        },
+                        {
+                            "rank": "5",
+                            "suit": "d"
+                        },
+                        {
+                            "rank": "A",
+                            "suit": "c"
+                        }
+                    ]
+                }
+            },
+            "turn": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "check"
+                    },
+                    {
+                        "seat": 4,
+                        "action": "bet",
+                        "value": 15
+                    },
+                    {
+                        "seat": 2,
+                        "action": "raise",
+                        "value": 45
+                    },
+                    {
+                        "seat": 4,
+                        "action": "call",
+                        "value": 30
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "9",
+                            "suit": "d"
+                        }
+                    ]
+                }
+            },
+            "river": {
+                "actions": [
+                    {
+                        "seat": 2,
+                        "action": "bet",
+                        "value": 60
+                    },
+                    {
+                        "seat": 4,
+                        "action": "fold"
+                    },
+                    {
+                        "seat": 2,
+                        "action": "return_uncalled",
+                        "value": 60
+                    }
+                ],
+                "deal": {
+                    "type": "community",
+                    "cards": [
+                        {
+                            "rank": "7",
+                            "suit": "s"
+                        }
+                    ]
+                }
+            }
+        },
+        "results": {
+            "rake": 6,
+            "pots": {
+                "main": 120
+            },
+            "seats": {
+                "2": {
+                    "collected": [
+                        {
+                            "main": 114
+                        }
+                    ]
+                }
+            }
+        },
+        "sb": 2,
+        "bb": 5,
+        "ante": null,
+        "players": [
+            {
+                "name": "Seat 3",
+                "seat": 3,
+                "stack": 227,
+                "sat_out": true
+            },
+            {
+                "name": "Seat 1",
+                "seat": 1,
+                "stack": 400
+            },
+            {
+                "name": "Seat 2",
+                "seat": 2,
+                "stack": 399
+            },
+            {
+                "name": "Seat 4",
+                "seat": 4,
+                "stack": 831
+            },
+            {
+                "name": "mistamack911",
+                "seat": 5,
+                "stack": 493,
+                "hero": true
+            },
+            {
+                "name": "Seat 6",
+                "seat": 6,
+                "stack": 500
+            }
+        ]
+    }
+]
