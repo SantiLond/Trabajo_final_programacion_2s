@@ -1,0 +1,668 @@
+Inicio del análisis exploratorio de datos
+file_poker.json 19
+file_poker_hands.json 19
+file_poker_page_2.json 22
+       hands_id game_class game_type  tournament                limit  ...                                            results   sb    bb   ante                                            players
+0  245647024180     holdem      NLHE        True  700/1400 (210 ante)  ...  {'rake': 0, 'pots': {'main': 67532}, 'seats': ...  700  1400  210.0  [{'name': 'Seat 1', 'seat': 1, 'stack': 101949...
+1  245641260042     holdem      NLHE        True     50/100 (12 ante)  ...  {'rake': 0, 'pots': {'main': 2394}, 'seats': {...   50   100   12.0  [{'name': 'Seat 1', 'seat': 1, 'stack': 4796, ...
+2  245657082593     holdem      NLHE        True  600/1200 (150 ante)  ...  {'rake': 0, 'pots': {'main': 62576}, 'seats': ...  600  1200  150.0  [{'name': 'michalbubble', 'seat': 1, 'stack': ...
+3  245644043257     holdem      NLHE        True     75/150 (20 ante)  ...  {'rake': 0, 'pots': {'main': 2913}, 'seats': {...   75   150   20.0  [{'name': 'Seat 1', 'seat': 1, 'stack': 10940}...
+4  245656671557     holdem      NLHE        True    100/200 (25 ante)  ...  {'rake': 0, 'pots': {'main': 11719}, 'seats': ...  100   200   25.0  [{'name': 'Seat 1', 'seat': 1, 'stack': 13470}...
+
+[5 rows x 14 columns]
+(60, 14)
+Cantidad de registros: 60
+Cantidad de columnas: 14
+
+Columnas del DataFrame:
+Index(['hands_id', 'game_class', 'game_type', 'tournament', 'limit', 'seats',
+       'button', 'hero_cards', 'streets', 'results', 'sb', 'bb', 'ante',
+       'players'],
+      dtype='object')
+
+Información del DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 60 entries, 0 to 59
+Data columns (total 14 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   hands_id    60 non-null     object 
+ 1   game_class  60 non-null     object 
+ 2   game_type   60 non-null     object 
+ 3   tournament  60 non-null     bool   
+ 4   limit       60 non-null     object 
+ 5   seats       60 non-null     int64  
+ 6   button      60 non-null     int64  
+ 7   hero_cards  60 non-null     object 
+ 8   streets     60 non-null     object 
+ 9   results     60 non-null     object 
+ 10  sb          60 non-null     int64  
+ 11  bb          60 non-null     int64  
+ 12  ante        40 non-null     float64
+ 13  players     60 non-null     object 
+dtypes: bool(1), float64(1), int64(4), object(8)
+memory usage: 6.3+ KB
+
+Cantidad de registros duplicados:
+0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10    False
+11    False
+12    False
+13    False
+14    False
+15    False
+16    False
+17    False
+18    False
+19     True
+20     True
+21     True
+22     True
+23     True
+24     True
+25     True
+26     True
+27     True
+28     True
+29     True
+30     True
+31     True
+32     True
+33     True
+34     True
+35     True
+36     True
+37     True
+38    False
+39     True
+40    False
+41    False
+42    False
+43    False
+44    False
+45    False
+46    False
+47    False
+48    False
+49    False
+50    False
+51    False
+52    False
+53    False
+54    False
+55    False
+56    False
+57    False
+58    False
+59    False
+dtype: bool
+20
+
+Registros repetidos:
+        hands_id                                         hero_cards
+0   245647024180  [{'rank': '6', 'suit': 's'}, {'rank': '7', 'su...
+1   245641260042  [{'rank': '7', 'suit': 'h'}, {'rank': 'K', 'su...
+2   245657082593  [{'rank': '6', 'suit': 'h'}, {'rank': '8', 'su...
+3   245644043257  [{'rank': 'A', 'suit': 's'}, {'rank': '6', 'su...
+4   245656671557  [{'rank': 'T', 'suit': 's'}, {'rank': 'K', 'su...
+5   245649589851  [{'rank': 'A', 'suit': 'd'}, {'rank': 'T', 'su...
+6   245650377852  [{'rank': '9', 'suit': 's'}, {'rank': '9', 'su...
+7   245656547509  [{'rank': 'J', 'suit': 'c'}, {'rank': 'K', 'su...
+8   245643386040  [{'rank': '6', 'suit': 'c'}, {'rank': '4', 'su...
+9   245656473068  [{'rank': '5', 'suit': 'c'}, {'rank': '4', 'su...
+10  245656370044  [{'rank': 'A', 'suit': 'd'}, {'rank': '6', 'su...
+11  245656225947  [{'rank': 'A', 'suit': 'c'}, {'rank': 'K', 'su...
+12  245641991216  [{'rank': 'A', 'suit': 'c'}, {'rank': '9', 'su...
+13  245655945035  [{'rank': '8', 'suit': 'd'}, {'rank': '9', 'su...
+14  245655858892  [{'rank': 'T', 'suit': 'h'}, {'rank': 'A', 'su...
+15  245522685350  [{'rank': '3', 'suit': 's'}, {'rank': '4', 'su...
+16  245655570422  [{'rank': 'T', 'suit': 'h'}, {'rank': '9', 'su...
+17  245645363142  [{'rank': 'T', 'suit': 'd'}, {'rank': 'J', 'su...
+18  245654305953  [{'rank': 'K', 'suit': 'd'}, {'rank': '2', 'su...
+19  245647024180  [{'rank': '6', 'suit': 's'}, {'rank': '7', 'su...
+20  245641260042  [{'rank': '7', 'suit': 'h'}, {'rank': 'K', 'su...
+21  245657082593  [{'rank': '6', 'suit': 'h'}, {'rank': '8', 'su...
+22  245644043257  [{'rank': 'A', 'suit': 's'}, {'rank': '6', 'su...
+23  245656671557  [{'rank': 'T', 'suit': 's'}, {'rank': 'K', 'su...
+24  245649589851  [{'rank': 'A', 'suit': 'd'}, {'rank': 'T', 'su...
+25  245650377852  [{'rank': '9', 'suit': 's'}, {'rank': '9', 'su...
+26  245656547509  [{'rank': 'J', 'suit': 'c'}, {'rank': 'K', 'su...
+27  245643386040  [{'rank': '6', 'suit': 'c'}, {'rank': '4', 'su...
+28  245656473068  [{'rank': '5', 'suit': 'c'}, {'rank': '4', 'su...
+29  245656370044  [{'rank': 'A', 'suit': 'd'}, {'rank': '6', 'su...
+30  245656225947  [{'rank': 'A', 'suit': 'c'}, {'rank': 'K', 'su...
+31  245641991216  [{'rank': 'A', 'suit': 'c'}, {'rank': '9', 'su...
+32  245655945035  [{'rank': '8', 'suit': 'd'}, {'rank': '9', 'su...
+33  245655858892  [{'rank': 'T', 'suit': 'h'}, {'rank': 'A', 'su...
+34  245522685350  [{'rank': '3', 'suit': 's'}, {'rank': '4', 'su...
+35  245655570422  [{'rank': 'T', 'suit': 'h'}, {'rank': '9', 'su...
+36  245645363142  [{'rank': 'T', 'suit': 'd'}, {'rank': 'J', 'su...
+37  245654305953  [{'rank': 'K', 'suit': 'd'}, {'rank': '2', 'su...
+38  245654347281  [{'rank': 'K', 'suit': 'd'}, {'rank': 'A', 'su...
+39  245654347281  [{'rank': 'K', 'suit': 'd'}, {'rank': 'A', 'su...
+Duplicados con diferencias: 0
+Registros antes de la limpieza: 60
+Registros después de la limpieza: 40
+       hands_id game_class game_type  tournament                limit  ...                                            results   sb    bb   ante                                            players
+0  245647024180     holdem      NLHE        True  700/1400 (210 ante)  ...  {'rake': 0, 'pots': {'main': 67532}, 'seats': ...  700  1400  210.0  [{'name': 'Seat 1', 'seat': 1, 'stack': 101949...
+1  245641260042     holdem      NLHE        True     50/100 (12 ante)  ...  {'rake': 0, 'pots': {'main': 2394}, 'seats': {...   50   100   12.0  [{'name': 'Seat 1', 'seat': 1, 'stack': 4796, ...
+2  245657082593     holdem      NLHE        True  600/1200 (150 ante)  ...  {'rake': 0, 'pots': {'main': 62576}, 'seats': ...  600  1200  150.0  [{'name': 'michalbubble', 'seat': 1, 'stack': ...
+3  245644043257     holdem      NLHE        True     75/150 (20 ante)  ...  {'rake': 0, 'pots': {'main': 2913}, 'seats': {...   75   150   20.0  [{'name': 'Seat 1', 'seat': 1, 'stack': 10940}...
+4  245656671557     holdem      NLHE        True    100/200 (25 ante)  ...  {'rake': 0, 'pots': {'main': 11719}, 'seats': ...  100   200   25.0  [{'name': 'Seat 1', 'seat': 1, 'stack': 13470}...
+
+[5 rows x 14 columns]
+
+Cantidad de valores nulos por columna:
+hands_id       0
+game_class     0
+game_type      0
+tournament     0
+limit          0
+seats          0
+button         0
+hero_cards     0
+streets        0
+results        0
+sb             0
+bb             0
+ante          13
+players        0
+dtype: int64
+
+Porcentaje de valores nulos:
+hands_id       0.0
+game_class     0.0
+game_type      0.0
+tournament     0.0
+limit          0.0
+seats          0.0
+button         0.0
+hero_cards     0.0
+streets        0.0
+results        0.0
+sb             0.0
+bb             0.0
+ante          32.5
+players        0.0
+dtype: float64
+
+Estadística descriptiva:
+           seats     button             sb             bb          ante
+count  40.000000  40.000000      40.000000      40.000000     27.000000
+mean    7.250000   3.525000    4170.825000    8342.050000   1553.629630
+std     1.904785   2.631052   16397.899262   32795.694439   4914.174625
+min     2.000000   1.000000       1.000000       2.000000      3.000000
+25%     6.000000   1.000000      13.750000      28.750000     17.500000
+50%     8.000000   2.500000      75.000000     150.000000    150.000000
+75%     8.000000   6.000000     775.000000    1550.000000    525.000000
+max     9.000000   8.000000  100000.000000  200000.000000  25000.000000
+
+Frecuencia de asientos:
+seats
+8    18
+9     9
+6     8
+2     2
+3     2
+7     1
+Name: count, dtype: int64
+
+Frecuencia relativa de asientos:
+seats
+8    45.0
+9    22.5
+6    20.0
+2     5.0
+3     5.0
+7     2.5
+Name: proportion, dtype: float64
+
+Frecuencia de modalidades de juego:
+tournament
+Torneo       31
+Cash Game     9
+Name: count, dtype: int64
+[{'name': 'Seat 1', 'seat': 1, 'stack': 101949, 'bounty': 1717}, {'name': 'Seat 2', 'seat': 2, 'stack': 350175, 'bounty': 2962}, {'name': 'Seat 3', 'seat': 3, 'stack': 42137, 'bounty': 2280}, {'name': 'Seat 4', 'seat': 4, 'stack': 56248, 'bounty': 796}, {'name': 'Seat 5', 'seat': 5, 'stack': 95255, 'bounty': 2295}, {'name': 'Seat 6', 'seat': 6, 'stack': 71644, 'bounty': 625}, {'name': 'vividoaksalah', 'seat': 7, 'stack': 70978, 'bounty': 827, 'hero': True}, {'name': 'Seat 8', 'seat': 8, 'stack': 39435, 'bounty': 500}]
+        hands_id  seats  cantidad_jugadores
+0   245647024180      8                   8
+1   245641260042      8                   8
+2   245657082593      2                   2
+3   245644043257      8                   8
+4   245656671557      8                   7
+5   245649589851      8                   7
+6   245650377852      9                   6
+7   245656547509      8                   7
+8   245643386040      8                   8
+9   245656473068      2                   2
+10  245656370044      3                   3
+11  245656225947      6                   6
+12  245641991216      9                   8
+13  245655945035      8                   8
+14  245655858892      6                   6
+15  245522685350      9                   7
+16  245655570422      6                   6
+17  245645363142      8                   8
+18  245654305953      6                   6
+19  245654347281      6                   6
+20  245640909100      8                   8
+21  245652787208      6                   6
+22  245652429064      6                   6
+23  245651973024      9                   7
+24  245651711669      9                   8
+25  245646988805      8                   8
+26  245651435396      9                   9
+27  245651365017      8                   7
+28  245650811903      7                   7
+29  245650654281      9                   9
+30  245650693922      8                   7
+31  245650545791      6                   6
+32  245650414106      9                   3
+33  245650335824      9                   7
+34  245642634891      8                   8
+35  245650020489      3                   3
+36  245649330424      8                   8
+37  245649261776      8                   7
+38  245649295090      8                   7
+39  245649132392      8                   7
+
+Estadística descriptiva de jugadores:
+count    40.000000
+mean      6.625000
+std       1.764137
+min       2.000000
+25%       6.000000
+50%       7.000000
+75%       8.000000
+max       9.000000
+Name: cantidad_jugadores, dtype: float64
+[{'rank': '6', 'suit': 's'}, {'rank': '7', 'suit': 's'}]
+                                           hero_cards categoria_cartas
+0   [{'rank': '6', 'suit': 's'}, {'rank': '7', 'su...       Mismo palo
+1   [{'rank': '7', 'suit': 'h'}, {'rank': 'K', 'su...       Mismo palo
+2   [{'rank': '6', 'suit': 'h'}, {'rank': '8', 'su...    Distinto palo
+3   [{'rank': 'A', 'suit': 's'}, {'rank': '6', 'su...       Mismo palo
+4   [{'rank': 'T', 'suit': 's'}, {'rank': 'K', 'su...    Distinto palo
+5   [{'rank': 'A', 'suit': 'd'}, {'rank': 'T', 'su...    Distinto palo
+6   [{'rank': '9', 'suit': 's'}, {'rank': '9', 'su...           Pareja
+7   [{'rank': 'J', 'suit': 'c'}, {'rank': 'K', 'su...    Distinto palo
+8   [{'rank': '6', 'suit': 'c'}, {'rank': '4', 'su...       Mismo palo
+9   [{'rank': '5', 'suit': 'c'}, {'rank': '4', 'su...    Distinto palo
+10  [{'rank': 'A', 'suit': 'd'}, {'rank': '6', 'su...    Distinto palo
+11  [{'rank': 'A', 'suit': 'c'}, {'rank': 'K', 'su...       Mismo palo
+12  [{'rank': 'A', 'suit': 'c'}, {'rank': '9', 'su...       Mismo palo
+13  [{'rank': '8', 'suit': 'd'}, {'rank': '9', 'su...       Mismo palo
+14  [{'rank': 'T', 'suit': 'h'}, {'rank': 'A', 'su...       Mismo palo
+15  [{'rank': '3', 'suit': 's'}, {'rank': '4', 'su...       Mismo palo
+16  [{'rank': 'T', 'suit': 'h'}, {'rank': '9', 'su...       Mismo palo
+17  [{'rank': 'T', 'suit': 'd'}, {'rank': 'J', 'su...    Distinto palo
+18  [{'rank': 'K', 'suit': 'd'}, {'rank': '2', 'su...       Mismo palo
+19  [{'rank': 'K', 'suit': 'd'}, {'rank': 'A', 'su...    Distinto palo
+20  [{'rank': 'A', 'suit': 's'}, {'rank': 'T', 'su...    Distinto palo
+21  [{'rank': 'T', 'suit': 'd'}, {'rank': 'J', 'su...    Distinto palo
+22  [{'rank': 'Q', 'suit': 's'}, {'rank': 'T', 'su...    Distinto palo
+23  [{'rank': '7', 'suit': 'h'}, {'rank': 'A', 'su...       Mismo palo
+24  [{'rank': 'K', 'suit': 'd'}, {'rank': 'T', 'su...    Distinto palo
+25  [{'rank': 'A', 'suit': 's'}, {'rank': '7', 'su...       Mismo palo
+26  [{'rank': 'A', 'suit': 'h'}, {'rank': 'Q', 'su...    Distinto palo
+27  [{'rank': '6', 'suit': 'c'}, {'rank': '8', 'su...    Distinto palo
+28  [{'rank': 'K', 'suit': 'd'}, {'rank': 'K', 'su...           Pareja
+29  [{'rank': 'A', 'suit': 'd'}, {'rank': 'J', 'su...    Distinto palo
+30  [{'rank': '8', 'suit': 's'}, {'rank': 'T', 'su...       Mismo palo
+31  [{'rank': 'J', 'suit': 's'}, {'rank': 'J', 'su...           Pareja
+32  [{'rank': 'J', 'suit': 's'}, {'rank': '2', 'su...       Mismo palo
+33  [{'rank': 'Q', 'suit': 'h'}, {'rank': '7', 'su...       Mismo palo
+34  [{'rank': 'A', 'suit': 's'}, {'rank': '3', 'su...       Mismo palo
+35  [{'rank': 'K', 'suit': 'h'}, {'rank': 'A', 'su...       Mismo palo
+36  [{'rank': 'Q', 'suit': 'd'}, {'rank': 'K', 'su...    Distinto palo
+37  [{'rank': 'K', 'suit': 'd'}, {'rank': '7', 'su...    Distinto palo
+38  [{'rank': 'K', 'suit': 'h'}, {'rank': 'K', 'su...           Pareja
+39  [{'rank': '7', 'suit': 'd'}, {'rank': '7', 'su...           Pareja
+
+Frecuencia de cartas iniciales:
+categoria_cartas
+Mismo palo       18
+Distinto palo    17
+Pareja            5
+Name: count, dtype: int64
+[{'name': 'Seat 1', 'seat': 1, 'stack': 101949, 'bounty': 1717}, {'name': 'Seat 2', 'seat': 2, 'stack': 350175, 'bounty': 2962}, {'name': 'Seat 3', 'seat': 3, 'stack': 42137, 'bounty': 2280}, {'name': 'Seat 4', 'seat': 4, 'stack': 56248, 'bounty': 796}, {'name': 'Seat 5', 'seat': 5, 'stack': 95255, 'bounty': 2295}, {'name': 'Seat 6', 'seat': 6, 'stack': 71644, 'bounty': 625}, {'name': 'vividoaksalah', 'seat': 7, 'stack': 70978, 'bounty': 827, 'hero': True}, {'name': 'Seat 8', 'seat': 8, 'stack': 39435, 'bounty': 500}]
+{'rake': 0, 'pots': {'main': 67532}, 'seats': {'5': {'hand': [{'rank': 'J', 'suit': 'c'}, {'rank': 'T', 'suit': 'h'}], 'final_hand': ['two pair, Jacks and Fives'], 'collected': [{'main': 67532}]}, '7': {'hand': [{'rank': '6', 'suit': 's'}, {'rank': '7', 'suit': 's'}]}}}
+        hands_id  asiento_hero
+0   245647024180             7
+1   245641260042             3
+2   245657082593             1
+3   245644043257             2
+4   245656671557             2
+5   245649589851             3
+6   245650377852             7
+7   245656547509             5
+8   245643386040             3
+9   245656473068             2
+10  245656370044             3
+11  245656225947             5
+12  245641991216             9
+13  245655945035             2
+14  245655858892             2
+15  245522685350             4
+16  245655570422             1
+17  245645363142             2
+18  245654305953             5
+19  245654347281             3
+20  245640909100             2
+21  245652787208             1
+22  245652429064             3
+23  245651973024             6
+24  245651711669             1
+25  245646988805             6
+26  245651435396             2
+27  245651365017             1
+28  245650811903             1
+29  245650654281             8
+30  245650693922             7
+31  245650545791             4
+32  245650414106             6
+33  245650335824             3
+34  245642634891             7
+35  245650020489             3
+36  245649330424             1
+37  245649261776             4
+38  245649295090             1
+39  245649132392             6
+
+Resultado de las manos:
+        hands_id  asiento_hero  victoria
+0   245647024180             7         0
+1   245641260042             3         0
+2   245657082593             1         0
+3   245644043257             2         0
+4   245656671557             2         1
+5   245649589851             3         0
+6   245650377852             7         1
+7   245656547509             5         1
+8   245643386040             3         0
+9   245656473068             2         1
+10  245656370044             3         1
+11  245656225947             5         1
+12  245641991216             9         0
+13  245655945035             2         0
+14  245655858892             2         0
+15  245522685350             4         0
+16  245655570422             1         1
+17  245645363142             2         1
+18  245654305953             5         0
+19  245654347281             3         1
+20  245640909100             2         1
+21  245652787208             1         1
+22  245652429064             3         1
+23  245651973024             6         0
+24  245651711669             1         0
+25  245646988805             6         1
+26  245651435396             2         0
+27  245651365017             1         1
+28  245650811903             1         0
+29  245650654281             8         1
+30  245650693922             7         0
+31  245650545791             4         0
+32  245650414106             6         1
+33  245650335824             3         0
+34  245642634891             7         1
+35  245650020489             3         1
+36  245649330424             1         1
+37  245649261776             4         1
+38  245649295090             1         0
+39  245649132392             6         0
+
+Frecuencia de victorias:
+victoria
+0    20
+1    20
+Name: count, dtype: int64
+Porcentaje de victorias: 50.00%
+                                           hero_cards combinacion_inicial
+0   [{'rank': '6', 'suit': 's'}, {'rank': '7', 'su...                 76s
+1   [{'rank': '7', 'suit': 'h'}, {'rank': 'K', 'su...                 K7s
+2   [{'rank': '6', 'suit': 'h'}, {'rank': '8', 'su...                 86o
+3   [{'rank': 'A', 'suit': 's'}, {'rank': '6', 'su...                 A6s
+4   [{'rank': 'T', 'suit': 's'}, {'rank': 'K', 'su...                 KTo
+5   [{'rank': 'A', 'suit': 'd'}, {'rank': 'T', 'su...                 ATo
+6   [{'rank': '9', 'suit': 's'}, {'rank': '9', 'su...                  99
+7   [{'rank': 'J', 'suit': 'c'}, {'rank': 'K', 'su...                 KJo
+8   [{'rank': '6', 'suit': 'c'}, {'rank': '4', 'su...                 64s
+9   [{'rank': '5', 'suit': 'c'}, {'rank': '4', 'su...                 54o
+10  [{'rank': 'A', 'suit': 'd'}, {'rank': '6', 'su...                 A6o
+11  [{'rank': 'A', 'suit': 'c'}, {'rank': 'K', 'su...                 AKs
+12  [{'rank': 'A', 'suit': 'c'}, {'rank': '9', 'su...                 A9s
+13  [{'rank': '8', 'suit': 'd'}, {'rank': '9', 'su...                 98s
+14  [{'rank': 'T', 'suit': 'h'}, {'rank': 'A', 'su...                 ATs
+15  [{'rank': '3', 'suit': 's'}, {'rank': '4', 'su...                 43s
+16  [{'rank': 'T', 'suit': 'h'}, {'rank': '9', 'su...                 T9s
+17  [{'rank': 'T', 'suit': 'd'}, {'rank': 'J', 'su...                 JTo
+18  [{'rank': 'K', 'suit': 'd'}, {'rank': '2', 'su...                 K2s
+19  [{'rank': 'K', 'suit': 'd'}, {'rank': 'A', 'su...                 AKo
+20  [{'rank': 'A', 'suit': 's'}, {'rank': 'T', 'su...                 ATo
+21  [{'rank': 'T', 'suit': 'd'}, {'rank': 'J', 'su...                 JTo
+22  [{'rank': 'Q', 'suit': 's'}, {'rank': 'T', 'su...                 QTo
+23  [{'rank': '7', 'suit': 'h'}, {'rank': 'A', 'su...                 A7s
+24  [{'rank': 'K', 'suit': 'd'}, {'rank': 'T', 'su...                 KTo
+25  [{'rank': 'A', 'suit': 's'}, {'rank': '7', 'su...                 A7s
+26  [{'rank': 'A', 'suit': 'h'}, {'rank': 'Q', 'su...                 AQo
+27  [{'rank': '6', 'suit': 'c'}, {'rank': '8', 'su...                 86o
+28  [{'rank': 'K', 'suit': 'd'}, {'rank': 'K', 'su...                  KK
+29  [{'rank': 'A', 'suit': 'd'}, {'rank': 'J', 'su...                 AJo
+30  [{'rank': '8', 'suit': 's'}, {'rank': 'T', 'su...                 T8s
+31  [{'rank': 'J', 'suit': 's'}, {'rank': 'J', 'su...                  JJ
+32  [{'rank': 'J', 'suit': 's'}, {'rank': '2', 'su...                 J2s
+33  [{'rank': 'Q', 'suit': 'h'}, {'rank': '7', 'su...                 Q7s
+34  [{'rank': 'A', 'suit': 's'}, {'rank': '3', 'su...                 A3s
+35  [{'rank': 'K', 'suit': 'h'}, {'rank': 'A', 'su...                 AKs
+36  [{'rank': 'Q', 'suit': 'd'}, {'rank': 'K', 'su...                 KQo
+37  [{'rank': 'K', 'suit': 'd'}, {'rank': '7', 'su...                 K7o
+38  [{'rank': 'K', 'suit': 'h'}, {'rank': 'K', 'su...                  KK
+39  [{'rank': '7', 'suit': 'd'}, {'rank': '7', 'su...                  77
+
+Frecuencia de combinaciones iniciales:
+combinacion_inicial
+86o    2
+A7s    2
+KTo    2
+ATo    2
+AKs    2
+JTo    2
+KK     2
+76s    1
+A6s    1
+64s    1
+54o    1
+A6o    1
+A9s    1
+98s    1
+99     1
+KJo    1
+K7s    1
+T9s    1
+43s    1
+ATs    1
+K2s    1
+QTo    1
+AKo    1
+AQo    1
+AJo    1
+T8s    1
+JJ     1
+J2s    1
+Q7s    1
+A3s    1
+KQo    1
+K7o    1
+77     1
+Name: count, dtype: int64
+Combinaciones diferentes: 33
+
+Tabla de contingencia:
+victoria           0   1
+categoria_cartas        
+Distinto palo      4  13
+Mismo palo        12   6
+Pareja             4   1
+
+Porcentaje de victorias por categoría:
+victoria                  0          1
+categoria_cartas                      
+Distinto palo     23.529412  76.470588
+Mismo palo        66.666667  33.333333
+Pareja            80.000000  20.000000
+
+Victorias según la cantidad de jugadores:
+                    count  sum      mean
+cantidad_jugadores                      
+2                       2    1  0.500000
+3                       3    3  1.000000
+6                       9    6  0.666667
+7                      12    4  0.333333
+8                      12    5  0.416667
+9                       2    1  0.500000
+                    total_manos  manos_ganadas  proporcion  porcentaje_victorias
+cantidad_jugadores                                                              
+2                             2              1    0.500000             50.000000
+3                             3              3    1.000000            100.000000
+6                             9              6    0.666667             66.666667
+7                            12              4    0.333333             33.333333
+8                            12              5    0.416667             41.666667
+9                             2              1    0.500000             50.000000
+
+Victorias por combinación inicial:
+                     total_manos  manos_ganadas  proporcion  porcentaje_victorias
+combinacion_inicial                                                              
+43s                            1              0         0.0                   0.0
+54o                            1              1         1.0                 100.0
+64s                            1              0         0.0                   0.0
+76s                            1              0         0.0                   0.0
+77                             1              0         0.0                   0.0
+86o                            2              1         0.5                  50.0
+98s                            1              0         0.0                   0.0
+99                             1              1         1.0                 100.0
+A3s                            1              1         1.0                 100.0
+A6o                            1              1         1.0                 100.0
+A6s                            1              0         0.0                   0.0
+A7s                            2              1         0.5                  50.0
+A9s                            1              0         0.0                   0.0
+AJo                            1              1         1.0                 100.0
+AKo                            1              1         1.0                 100.0
+AKs                            2              2         1.0                 100.0
+AQo                            1              0         0.0                   0.0
+ATo                            2              1         0.5                  50.0
+ATs                            1              0         0.0                   0.0
+J2s                            1              1         1.0                 100.0
+JJ                             1              0         0.0                   0.0
+JTo                            2              2         1.0                 100.0
+K2s                            1              0         0.0                   0.0
+K7o                            1              1         1.0                 100.0
+K7s                            1              0         0.0                   0.0
+KJo                            1              1         1.0                 100.0
+KK                             2              0         0.0                   0.0
+KQo                            1              1         1.0                 100.0
+KTo                            2              1         0.5                  50.0
+Q7s                            1              0         0.0                   0.0
+QTo                            1              1         1.0                 100.0
+T8s                            1              0         0.0                   0.0
+T9s                            1              1         1.0                 100.0
+
+Estadística de las manos ganadas:
+count    20.000000
+mean      6.200000
+std       1.989446
+min       2.000000
+25%       6.000000
+50%       6.500000
+75%       8.000000
+max       9.000000
+Name: cantidad_jugadores, dtype: float64
+
+Estadística de las manos no ganadas:
+count    20.000000
+mean      7.050000
+std       1.431782
+min       2.000000
+25%       7.000000
+50%       7.000000
+75%       8.000000
+max       9.000000
+Name: cantidad_jugadores, dtype: float64
+
+Combinaciones finales:
+   combinacion_inicial combinacion_final
+0                  76s       Desconocida
+1                  K7s       Desconocida
+2                  86o       Desconocida
+3                  A6s       Desconocida
+4                  KTo       Desconocida
+5                  ATo       Desconocida
+6                   99          two pair
+7                  KJo       Desconocida
+8                  64s       Desconocida
+9                  54o   a pair of Fives
+10                 A6o          two pair
+11                 AKs       Desconocida
+12                 A9s       Desconocida
+13                 98s       Desconocida
+14                 ATs          two pair
+15                 43s       Desconocida
+16                 T9s           a flush
+17                 JTo       Desconocida
+18                 K2s       Desconocida
+19                 AKo      a full house
+20                 ATo    a pair of Aces
+21                 JTo      a full house
+22                 QTo        a straight
+23                 A7s       Desconocida
+24                 KTo       Desconocida
+25                 A7s          two pair
+26                 AQo       Desconocida
+27                 86o       Desconocida
+28                  KK       Desconocida
+29                 AJo    a pair of Tens
+30                 T8s       Desconocida
+31                  JJ          two pair
+32                 J2s       Desconocida
+33                 Q7s       Desconocida
+34                 A3s          two pair
+35                 AKs     a Royal Flush
+36                 KQo        a straight
+37                 K7o      a full house
+38                  KK       Desconocida
+39                  77   three of a kind
+
+Frecuencia de combinaciones finales:
+combinacion_final
+Desconocida        23
+two pair            6
+a full house        3
+a straight          2
+a flush             1
+a pair of Fives     1
+a pair of Aces      1
+a pair of Tens      1
+a Royal Flush       1
+three of a kind     1
+Name: count, dtype: int64
+
+Datos procesados:
+       hands_id game_type  tournament  seats  cantidad_jugadores   sb    bb   ante  asiento_hero categoria_cartas combinacion_inicial combinacion_final  victoria
+0  245647024180      NLHE        True      8                   8  700  1400  210.0             7       Mismo palo                 76s       Desconocida         0
+1  245641260042      NLHE        True      8                   8   50   100   12.0             3       Mismo palo                 K7s       Desconocida         0
+2  245657082593      NLHE        True      2                   2  600  1200  150.0             1    Distinto palo                 86o       Desconocida         0
+3  245644043257      NLHE        True      8                   8   75   150   20.0             2       Mismo palo                 A6s       Desconocida         0
+4  245656671557      NLHE        True      8                   7  100   200   25.0             2    Distinto palo                 KTo       Desconocida         1
+(40, 13)
+
+Datos procesados guardados correctamente
+
+Fin del análisis exploratorio de datos

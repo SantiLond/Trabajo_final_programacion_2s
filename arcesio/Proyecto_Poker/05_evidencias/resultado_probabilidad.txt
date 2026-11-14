@@ -1,0 +1,22 @@
+Inicio del análisis de probabilidades
+       hands_id game_type  tournament  seats  cantidad_jugadores   sb    bb   ante  asiento_hero categoria_cartas combinacion_inicial combinacion_final  victoria
+0  245647024180      NLHE        True      8                   8  700  1400  210.0             7       Mismo palo                 76s       Desconocida         0
+1  245641260042      NLHE        True      8                   8   50   100   12.0             3       Mismo palo                 K7s       Desconocida         0
+2  245657082593      NLHE        True      2                   2  600  1200  150.0             1    Distinto palo                 86o       Desconocida         0
+3  245644043257      NLHE        True      8                   8   75   150   20.0             2       Mismo palo                 A6s       Desconocida         0
+4  245656671557      NLHE        True      8                   7  100   200   25.0             2    Distinto palo                 KTo       Desconocida         1
+
+Frecuencias observadas:
+categoria_cartas
+Mismo palo       45.0
+Distinto palo    42.5
+Pareja           12.5
+Name: proportion, dtype: float64
+
+Comparación de probabilidades:
+       Categoria    Teorica  Observada
+0         Pareja   5.882353       12.5
+1     Mismo palo  23.529412       45.0
+2  Distinto palo  70.588235       42.5
+
+Fin del análisis de probabilidades
