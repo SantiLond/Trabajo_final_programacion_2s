@@ -1,0 +1,41 @@
+hands_id,game_type,tournament,seats,cantidad_jugadores,sb,bb,ante,asiento_hero,categoria_cartas,combinacion_inicial,combinacion_final,victoria
+245647024180,NLHE,True,8,8,700,1400,210.0,7,Mismo palo,76s,Desconocida,0
+245641260042,NLHE,True,8,8,50,100,12.0,3,Mismo palo,K7s,Desconocida,0
+245657082593,NLHE,True,2,2,600,1200,150.0,1,Distinto palo,86o,Desconocida,0
+245644043257,NLHE,True,8,8,75,150,20.0,2,Mismo palo,A6s,Desconocida,0
+245656671557,NLHE,True,8,7,100,200,25.0,2,Distinto palo,KTo,Desconocida,1
+245649589851,NLHE,True,8,7,100000,200000,25000.0,3,Distinto palo,ATo,Desconocida,0
+245650377852,NLHE,True,9,6,3000,6000,750.0,7,Pareja,99,two pair,1
+245656547509,NLHE,True,8,7,1500,3000,500.0,5,Distinto palo,KJo,Desconocida,1
+245643386040,NLHE,True,8,8,700,1400,200.0,3,Mismo palo,64s,Desconocida,0
+245656473068,NLHE,True,2,2,75,150,20.0,2,Distinto palo,54o,a pair of Fives,1
+245656370044,NLHE,True,3,3,20,40,,3,Distinto palo,A6o,two pair,1
+245656225947,NLHE,False,6,6,50,100,,5,Mismo palo,AKs,Desconocida,1
+245641991216,NLHE,False,9,8,100,200,,9,Mismo palo,A9s,Desconocida,0
+245655945035,NLHE,True,8,8,125,250,36.0,2,Mismo palo,98s,Desconocida,0
+245655858892,NLHE,False,6,6,10,25,,2,Mismo palo,ATs,two pair,0
+245522685350,NLHE,True,9,7,10,20,3.0,4,Mismo palo,43s,Desconocida,0
+245655570422,NLHE,False,6,6,10,25,,1,Mismo palo,T9s,a flush,1
+245645363142,NLHE,True,8,8,100,200,25.0,2,Distinto palo,JTo,Desconocida,1
+245654305953,NLHE,False,6,6,2,5,,5,Mismo palo,K2s,Desconocida,0
+245654347281,NLHE,False,6,6,1,2,,3,Distinto palo,AKo,a full house,1
+245640909100,NLHE,True,8,8,50,100,15.0,2,Distinto palo,ATo,a pair of Aces,1
+245652787208,NLHE,False,6,6,10,25,,1,Distinto palo,JTo,a full house,1
+245652429064,NLHE,False,6,6,5,10,,3,Distinto palo,QTo,a straight,1
+245651973024,NLHE,True,9,7,15,30,,6,Mismo palo,A7s,Desconocida,0
+245651711669,NLHE,True,9,8,15,30,4.0,1,Distinto palo,KTo,Desconocida,0
+245646988805,NLHE,True,8,8,600,1200,180.0,6,Mismo palo,A7s,two pair,1
+245651435396,NLHE,True,9,9,10,20,3.0,2,Distinto palo,AQo,Desconocida,0
+245651365017,NLHE,True,8,7,1750,3500,550.0,1,Distinto palo,86o,Desconocida,1
+245650811903,NLHE,True,7,7,30000,60000,7000.0,1,Pareja,KK,Desconocida,0
+245650654281,NLHE,True,9,9,10,20,,8,Distinto palo,AJo,a pair of Tens,1
+245650693922,NLHE,True,8,7,40,80,10.0,7,Mismo palo,T8s,Desconocida,0
+245650545791,NLHE,False,6,6,50,100,,4,Pareja,JJ,two pair,0
+245650414106,NLHE,True,9,3,1000,2000,250.0,6,Mismo palo,J2s,Desconocida,1
+245650335824,NLHE,True,9,7,15000,30000,3750.0,3,Mismo palo,Q7s,Desconocida,0
+245642634891,NLHE,True,8,8,500,1000,125.0,7,Mismo palo,A3s,two pair,1
+245650020489,NLHE,True,3,3,10,20,,3,Mismo palo,AKs,a Royal Flush,1
+245649330424,NLHE,True,8,8,2000,4000,500.0,1,Distinto palo,KQo,a straight,1
+245649261776,NLHE,True,8,7,40,80,10.0,4,Distinto palo,K7o,a full house,1
+245649295090,NLHE,True,8,7,4500,9000,1400.0,1,Pareja,KK,Desconocida,0
+245649132392,NLHE,True,8,7,4000,8000,1200.0,6,Pareja,77,three of a kind,0
